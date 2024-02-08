@@ -1,7 +1,9 @@
 
-h1 { color: blueviolet; }
-h1 {font: monospace;}
-h1 {font-size: 50px;
-h2 {font-size: 25px}
-h2 {background-color: aliceblue;
-p {background-color: pink;}
+h1 { color: blueviolet; 
+font: monospace;
+font-size: 50px;
+}
+h2 {font-size: 25px
+	background-color: aliceblue;}
+p {background-color: pink;
+}
