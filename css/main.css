@@ -1,9 +1,11 @@
 
 h1 { color: blueviolet; 
 font: monospace;
+font-family: 'Roboto Condensed', sans-serif;
 font-size: 50px;
+font-weight: 400;
 }
-h2 {font-size: 25px
+h2 {font-size: 16px
 	background-color: aliceblue;}
 p {background-color: pink;
 }
