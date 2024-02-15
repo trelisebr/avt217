@@ -1,7 +1,43 @@
-h1{font-size: 30px;
-	font-family: font-family: 'Roboto Condensed', sans-serif;
-	color: aliceblue;
-	margin-left: 250px;
-	margin-top: 300px;
+body {
+	background-color: #0c0a0a;
+	color: #641819;
+	font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
-p{font-size: 20px}
+h1 {
+	font-size: 175px;
+	font-family:  "Protest Strike", sans-serif;
+	letter-spacing: 3px;
+	color: #d5d1d0;
+	margin-left: 200px;
+	margin-top: 200px;
+}
+p {font-size: 75px;
+	font-family: "Protest Strike", sans-serif;
+	letter-spacing: 3px;
+	color: #d5d1d0;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #641819;
+}
+a:visited {
+	color: #d5d1d0;
+}
+a:hover {
+	color: #bd2727;
+	background-color: #23111;
+}
+a:active {
+	color: #d5d1d0;
+}
