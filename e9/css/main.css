@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+div {
+	width: 150px;
+	height: 100px;
+	background: palegreen;
+	float: left;
+	margin: 15px;
+}
+.pink {
+	width: 200px;
+	height: 100px;
+	background: pink;
+	float: left;
+	margin: 15px;
+}
+.purple {
+	width: 100px;
+	height: 100px;
+	background: purple;
+	float: left;
+	margin: 15px;
+}
