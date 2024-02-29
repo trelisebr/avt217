@@ -1,25 +1,38 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box;}
+body { 
+background-color: whitesmoke;
 }
-
 div {
-	width: 150px;
-	height: 100px;
+	width: 25px;
+	height: 25px;
 	background: palegreen;
 	float: left;
-	margin: 15px;
+	margin: 10px;
+	transform: rotate(45deg);
+	opacity: 70%;
+	border-radius: 40%;
 }
 .pink {
-	width: 200px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	background: pink;
-	float: left;
+	float: right;
 	margin: 15px;
 }
 .purple {
-	width: 100px;
-	height: 100px;
+	width: 15px;
+	height: 15px;
 	background: purple;
 	float: left;
 	margin: 15px;
+}
+.p1{
+	width: 5;
+	height: 5;
+	background-color: aliceblue;
+	border-radius: 20%;
+	margin: 0px;
+	opacity: 100%;
+	float: left;
 }
