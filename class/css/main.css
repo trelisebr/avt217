@@ -1,0 +1,20 @@
+body {
+	background-color: black;
+	margin: 10px;
+}
+h1 {
+	color: tomato;
+	text-align: center;
+	font-size: 300px;
+	margin-top: 200px;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background-color: white;
+	}
+	h1{
+		margin-top: 500px;
+		font-size: 60px;
+	}
+}
