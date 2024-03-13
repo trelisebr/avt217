@@ -2,13 +2,13 @@
 	box-sizing: border-box;}
 body { 
 background-color: whitesmoke;
+margin: 50px;
 }
 div {
-	width: 25px;
-	height: 25px;
-	background: palegreen;
-	float: left;
-	margin: 10px;
+	width: 50px;
+	height: 50px;
+	background: aliceblue;
+	margin: 0px;
 	transform: rotate(45deg);
 	opacity: 70%;
 	border-radius: 40%;
@@ -39,10 +39,76 @@ div {
 
 .p2-1 {
 	background-color: hotpink;
-	width
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius:40%;
+	transform: rotate(30deg);
 }
 
 .p2-2 {
 	background-color: black;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 20%;
+	transform: rotate(60deg);
 }
 
+
+.p2-3 {
+	background-color: hotpink;
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius:0%;
+	transform: rotate(15deg);
+}
+
+.p2-4 {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 0%;
+	transform: rotate(180deg);
+}
+.p3-1 {
+	background-color: black;
+	opacity: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 0%;
+	transform: rotate(180deg);
+}
+
+.p3-2 {
+	background-color: black;
+	opacity: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 0%;
+	transform: rotate(135deg);
+}
+
+.p3-3 {
+	background-color: black;
+	opacity: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 25%;
+	transform: rotate(90deg);
+}
+
+.p3-4 {
+	background-color: black;
+	opacity: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 50%;
+	transform: rotate(90deg);
+}
