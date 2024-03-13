@@ -75,40 +75,84 @@ div {
 }
 .p3-1 {
 	background-color: black;
-	opacity: 50%;
+	opacity: 100%;
 	width: 100px;
 	height: 100px;
 	float: left;
 	border-radius: 0%;
-	transform: rotate(180deg);
+	transform: rotate(160deg);
+	border:10px solid whitesmoke;
 }
 
 .p3-2 {
 	background-color: black;
-	opacity: 50%;
+	opacity: 100%;
 	width: 100px;
 	height: 100px;
 	float: left;
 	border-radius: 0%;
 	transform: rotate(135deg);
+	
 }
 
 .p3-3 {
 	background-color: black;
-	opacity: 50%;
+	opacity: 100%;
 	width: 100px;
 	height: 100px;
 	float: left;
 	border-radius: 25%;
-	transform: rotate(90deg);
+	transform: rotate(130deg);
+	border:20px solid whitesmoke;
 }
 
 .p3-4 {
 	background-color: black;
-	opacity: 50%;
+	opacity: 100%;
 	width: 100px;
 	height: 100px;
 	float: left;
 	border-radius: 50%;
 	transform: rotate(90deg);
+
 }
+
+.p4-1 {
+	background-color: seagreen;
+	opacity: 100%;
+	width: 200px;
+	height: 100px;
+	float: right;
+	border-radius: 100%;
+	transform: rotate(45deg);
+
+}
+.p4-2 {
+	background-color: seagreen;
+	opacity: 100%;
+	width: 200px;
+	height: 100px;
+	float: right;
+	border-radius: 100%;
+	transform: rotate(135deg);
+}
+
+.p4-3 {
+	background-color: seagreen;
+	opacity: 100%;
+	width: 200px;
+	height: 100px;
+	float: right;
+	border-radius: 100%;
+	transform: rotate(90deg);
+	}	
+
+.p4-4 {
+	background-color: seagreen;
+	opacity: 100%;
+	width: 200px;
+	height: 100px;
+	float: right;
+	border-radius: 100%;
+	transform: rotate(180deg);
+	}		
