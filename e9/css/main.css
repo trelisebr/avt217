@@ -161,8 +161,60 @@ div {
 {
 	background-color: purple;
 	opacity: 100%;
-	width: 250px;
-	height: 25px;
+	width: 350px;
+	height: 55px;
 	float: left;
 	border-radius: 50%;
-	
+}
+
+.p5-2
+{ 
+	background-color: purple;
+	opacity: 100%;
+	width: 20px;
+	height: 300px;
+	float: left;
+	border-radius: 50%;
+}
+.p5-3
+{ 
+	background-color: purple;
+	opacity: 100%;
+	width: 200px;
+	height: 60px;
+	float: left;
+	border-radius: 50%;	
+	transform: rotate(120deg);
+}
+	.p5-4
+{ 
+	background-color: purple;
+	opacity: 100%;
+	width: 70px;
+	height: 250px;
+	float: left;
+	border: 10px solid whitesmoke;
+	border-radius: 50%;	
+	transform: rotate(325deg);
+}
+.p5-5
+{ 
+	background-color: purple;
+	opacity: 100%;
+	width: 75px;
+	height: 250px;
+	float: left;
+	border-radius: 30%;
+	border: 20px solid whitesmoke;	
+	transform: rotate(120deg);
+}
+.p5-6
+{
+	background-color: purple;
+	opacity: 100%;
+	width: 350px;
+	height: 55px;
+	float: left;
+	border-radius: 50%;
+	transform: rotate(300deg);
+}
