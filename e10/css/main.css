@@ -26,6 +26,7 @@ body {
 
 .container {
 	width: 1000px;
+	margin: 25px auto;
 
 }
 
@@ -47,8 +48,17 @@ nav{
 	height: 800px;
 	width: 300px;
 	float: left;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.centercol {
+	background-color: black;
+	height: 800px;
+	width: 300px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	
 }
 
 footer {
