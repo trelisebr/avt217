@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	background-color: blueviolet;
+}
+
+.gold {
+	background-color: gold;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.black {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.board {
+	width: 800px;
+	margin: 50px auto;
+}
+
+/*columns*/
+
+.container {
+	width: 1000px;
+
+}
+
+header {
+	background-color: black;
+	margin-bottom: 25px;
+	width: 1000px;
+	height: 150px;
+}
+
+nav{
+	background-color: black;
+	margin-bottom: 25px;
+	width: 1000px;
+	height: 50px;
+}
+.col {
+	background-color: black;
+	height: 800px;
+	width: 300px;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+footer {
+	background-color: black;
+	margin-bottom: 25px;
+	margin-top: 850px;
+	width: 1000px;
+	height: 50px;
+}
