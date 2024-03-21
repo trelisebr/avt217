@@ -68,3 +68,34 @@ footer {
 	width: 1000px;
 	height: 50px;
 }
+/* blog*/
+.container2 {
+	margin-top: 200px;
+
+}
+
+.shape1-1 {
+	background-color: black;
+	width: 790px;
+	height: 600px;
+	margin-top: 50px;
+	float: left;
+}
+
+.shape1-2 {
+	background-color: black;
+	width: 185px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 25px;
+	float: left;
+}
+
+.shape1-3 {
+	background-color: black;
+	width: 1000px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 300px;
+}
