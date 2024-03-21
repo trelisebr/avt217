@@ -5,6 +5,25 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+header {
+width: 75vw;
+margin: 25px auto;
+font-family: "Bree Serif", serif;
+background-color: white;
+}
+
+main {
+	width: 75vw ;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.col {
+	width: 50%;
+	background-color: white;
+	float: left;
+}
 h1 { 
 color: #3a3238; 
 font: monospace;
@@ -16,7 +35,7 @@ font-size: 75px;
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 25px;
 	font-family: "Bree Serif", serif;
 	font-weight: 400px;
 	color: #6e4555;
