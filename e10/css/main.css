@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	background-color: blueviolet;
 }
+h1 {
+	margin-left: 25px;
+}
 
 .gold {
 	background-color: gold;
@@ -69,6 +72,11 @@ footer {
 	height: 50px;
 }
 /* blog*/
+
+.container2, .shape1-1, .shape1-2, .shape1-3 {
+	margin-right: 40px;
+}
+
 .container2 {
 	margin-top: 200px;
 
