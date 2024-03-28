@@ -73,9 +73,11 @@ footer {
 }
 /* blog*/
 
-.container2, .shape1-1, .shape1-2, .shape1-3 {
-	margin-right: 40px;
+
+.shape1-1, .shape1-3, .shape1-2 {
+	margin-right: 50px;
 }
+
 
 .container2 {
 	margin-top: 200px;
@@ -95,15 +97,15 @@ footer {
 	width: 185px;
 	height: 300px;
 	margin-top: 50px;
-	margin-left: 25px;
+	margin-left: 0px;
 	float: left;
 }
 
 .shape1-3 {
 	background-color: black;
-	width: 1000px;
+	width: 790px;
 	height: 100px;
 	float: left;
 	margin-top: 10px;
-	margin-right: 300px;
+	margin-right: 400px;
 }
