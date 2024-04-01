@@ -1,0 +1,47 @@
+body {
+	background-color: wheat;
+	height: 100000px;
+}
+
+.static {
+	width: 200px;
+	height: 200px;
+	background-color: blueviolet;
+	margin: 10px;
+}
+
+.relative {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	background-color: purple;
+}
+
+.absolute {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-color: orange;
+}
+
+.fixed {
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: darkblue;
+}
+
+.noposition {
+	width: 500px;
+	height: 500px;
+	float: left;
+}
