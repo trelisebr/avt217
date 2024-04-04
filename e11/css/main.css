@@ -1,20 +1,58 @@
 body {
-	background: beige;
+	background: #9FBCD6;
 }
 
 
 
 .base {
-	height: 700px;
-	width: 300px;
-	background-color: black;
-	position: absolute;
+	border-bottom: 700px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 180deg;
+    height: 0;
+    width: 300px;
+    margin: auto;
+    margin-top: 1px;
 }
+
 .lid {
-	height: 25px;
-	width: ;
+	height: 30px;
+	width: 370px;
+	background-color: #161616;
+	margin-bottom: 1px;
+	margin: auto;
+	border: 5px solid black;
 }
 
 .straw {
+	height: 200px;
+	width: 30px;
+	background-color: #161616;
+	margin: auto;
+	border: 2px solid black;
+
+}
+
+
+ .trapezoid1 {
+    border-bottom: 700px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 180deg;
+    height: 0;
+    width: 350px;
+    margin: auto;
+    margin-top: 2px;
+    }
+
+.shape2 {
+	border-bottom: 700px solid black;
+	width: 350px;
+	border-left: 25px solid black;
+    border-right: 25px solid black;
+	rotate: 180deg;
+	background-color: #1F1F1F;
+	margin: auto;
+	margin-top: 3px;
 
 }
