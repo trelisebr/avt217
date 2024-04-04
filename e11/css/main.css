@@ -3,7 +3,7 @@ body {
 }
 
 
-
+/*cup*/
 .base {
 	border-bottom: 700px solid black;
     border-left: 40px solid transparent;
@@ -45,6 +45,7 @@ body {
     margin-top: 2px;
     }
 
+/*test*/
 .shape2 {
 	border-bottom: 700px solid black;
 	width: 350px;
@@ -55,4 +56,115 @@ body {
 	margin: auto;
 	margin-top: 3px;
 
+}
+
+/*details*/
+.moon {
+	 position: absolute; 
+	 margin: 300px 100px 75px 35px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 40deg; 
+     height: 100px; 
+     width: 100px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%; 
+}
+
+.moon2 {
+	 position: absolute; 
+	 margin: 600px 300px 5px 35px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 40deg; 
+     height: 100px; 
+     width: 100px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%; 
+}
+
+.moon3 {
+	 position: absolute; 
+	 margin: 40px 40px 55px -190px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 180deg; 
+     height: 90px; 
+     width: 90px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%; 
+}
+
+.star
+
+.star-five {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+.star-before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+.star-after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+.dot {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	margin: 20px 40px 200px 100px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot2 {
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	margin: 100px 300px 245px 170px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot3 {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin: 460px 300px 275px 100px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
 }
