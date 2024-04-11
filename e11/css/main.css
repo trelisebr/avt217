@@ -226,3 +226,22 @@ body {
 	display: inline-block;
 }
 
+/*moving css*/
+
+.divcl {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	position: absolute;
+	animation: 3s linear 1s move;
+}
+
+@keyframes move {
+0% {
+	top: 0;
+}
+100% n
+}
+
+
+}
