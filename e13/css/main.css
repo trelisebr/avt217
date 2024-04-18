@@ -1,0 +1,269 @@
+body {
+	background: #9FBCD6;
+}
+
+
+/*cup*/
+.base {
+	border-bottom: 700px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 180deg;
+    height: 0;
+    width: 300px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 2%;
+}
+
+.lid {
+	height: 30px;
+	width: 370px;
+	background-color: #161616;
+	margin-bottom: 1px;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 2%;
+}
+
+.straw {
+	height: 200px;
+	width: 30px;
+	background-color: #161616;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 1%;
+
+}
+
+
+ .trapezoid1 {
+    border-bottom: 700px solid black;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    rotate: 180deg;
+    height: 0;
+    width: 350px;
+    margin: auto;
+    margin-top: 2px;
+    }
+
+/*test*/
+.shape2 {
+	border-bottom: 700px solid black;
+	width: 350px;
+	border-left: 25px solid black;
+    border-right: 25px solid black;
+	rotate: 180deg;
+	background-color: #1F1F1F;
+	margin: auto;
+	margin-top: 3px;
+
+}
+
+/*details*/
+.moon {
+	 position: absolute; 
+	 margin: 300px 100px 75px 35px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 40deg; 
+     height: 100px; 
+     width: 100px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%; 
+     animation-name: spin;
+     animation-duration: 10000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+
+.moon2 {
+	 position: absolute; 
+	 margin: 600px 300px 5px 35px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 40deg; 
+     height: 70px; 
+     width: 70px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%;
+     animation-name: spin;
+     animation-duration: 5000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear; 
+}
+
+.moon3 {
+	 position: absolute; 
+	 margin: 60px 270px 155px -150px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     rotate: 180deg; 
+     height: 50px; 
+     width: 50px; 
+     box-shadow: -15px 15px 0 5px #cccccc  ; 
+     border-radius: 50%;
+     animation-name: spin;
+     animation-duration: 5000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear; 
+  
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    } 
+}
+
+.star
+
+.star-five {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+.star-before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+.star-after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+
+/*dots*/
+
+.dot {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	float: left;
+	margin: 20px 40px 200px 100px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot2 {
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	margin: 100px 300px 245px 170px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot3 {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin: 460px 300px 275px 100px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot4 {
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	margin: 560px 300px 275px 50px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot5 {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin: 70px 3px 275px 250px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot6 {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin: 250px 30px 75px 10px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot7 {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	margin: 420px 30px 275px 270px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot8 {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin: 360px 200px 175px 75px;
+	background-color: #cccccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/*moving css*/
+
+.divcl {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	position: absolute;
+	animation: 3s linear 1s move;
+}
+
+@keyframes move {
+0% {
+	top: 0;
+}
+100% n
+}
+
+
+}
